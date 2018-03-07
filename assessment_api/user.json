@@ -1,0 +1,23 @@
+/* 1 */
+{
+    "_id" : ObjectId("5a8f8bfe9f763b3eace920ce"),
+    "_class" : "com.aspiresys.entity.User",
+    "userName" : "vignesh1",
+    "password" : "Vign@2012",
+    "email" : "vignesh@aspire.com",
+    "active" : true,
+    "createdBy" : "591f0597459e8e3d3858f8d3",
+    "createdDate" : ISODate("2018-02-23T03:35:26.170Z")
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("591f0597459e8e3d3858f8d3"),
+    "_class" : "com.aspiresys.entity.User",
+    "userName" : "vignesh2",
+    "password" : "Vign@2012",
+    "email" : "vignesh2@aspire.com",
+    "active" : true,
+    "createdBy" : "591f0597459e8e3d3858f8d3",
+    "createdDate" : ISODate("2018-02-23T03:35:26.170Z")
+}

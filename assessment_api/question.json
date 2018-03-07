@@ -1,0 +1,88 @@
+/* 1 */
+{
+    "_id" : ObjectId("5a9f5dbfd744090b30cab33e"),
+    "_class" : "com.aspiresys.entity.Question",
+    "text" : "checkbox q1",
+    "type" : "Multichoice",
+    "options" : [ 
+        {
+            "value" : "choice11",
+            "isDefault" : false
+        }, 
+        {
+            "value" : "choice2",
+            "isDefault" : false
+        }, 
+        {
+            "value" : "choice3",
+            "isDefault" : false
+        }
+    ],
+    "helpText" : "no helo",
+    "isMandatory" : false,
+    "order" : NumberLong(1),
+    "identifier" : "checkbox q1",
+    "assessmentId" : "5a8e9f849f763b3eace920cb",
+    "questionGroupId" : "5a8e9fa59f763b3eace920cc",
+    "active" : true
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5a9f5de0d744090b30cab33f"),
+    "_class" : "com.aspiresys.entity.Question",
+    "text" : "check box2",
+    "type" : "Multichoice",
+    "options" : [ 
+        {
+            "value" : "choice1",
+            "isDefault" : true
+        }, 
+        {
+            "value" : "choice2",
+            "isDefault" : false
+        }
+    ],
+    "helpText" : "help ",
+    "isMandatory" : false,
+    "order" : NumberLong(2),
+    "identifier" : "check box2",
+    "assessmentId" : "5a8e9f849f763b3eace920cb",
+    "questionGroupId" : "5a8e9fa59f763b3eace920cc",
+    "active" : true
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5a9f5df8d744090b30cab340"),
+    "_class" : "com.aspiresys.entity.Question",
+    "text" : "text area",
+    "type" : "Textarea",
+    "helpText" : "he",
+    "isMandatory" : false,
+    "order" : NumberLong(3),
+    "identifier" : "text area",
+    "assessmentId" : "5a8e9f849f763b3eace920cb",
+    "questionGroupId" : "5a8e9fa59f763b3eace920cc",
+    "active" : true
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5a9f5e12d744090b30cab341"),
+    "_class" : "com.aspiresys.entity.Question",
+    "text" : "multiselect",
+    "type" : "Multiselect",
+    "options" : [ 
+        "select1", 
+        "select2", 
+        "select3"
+    ],
+    "helpText" : "gggg",
+    "isMandatory" : false,
+    "order" : NumberLong(4),
+    "identifier" : "multiselect",
+    "assessmentId" : "5a8e9f849f763b3eace920cb",
+    "questionGroupId" : "5a8e9fa59f763b3eace920cc",
+    "active" : true
+}

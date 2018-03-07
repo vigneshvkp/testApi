@@ -1,0 +1,18 @@
+/* 1 */
+{
+    "_id" : ObjectId("5a9f7ae4d744090b30cab34a"),
+    "_class" : "com.aspiresys.entity.Answer",
+    "answer" : [ 
+        "choice1"
+    ],
+    "userId" : "591f0597459e8e3d3858f8d3",
+    "userAssessmentId" : "5a98f9b4ceede130dcf36440",
+    "assessmentId" : "5a8e9f849f763b3eace920cb",
+    "questionGroupId" : "5a8e9fa59f763b3eace920cc",
+    "questionId" : "5a9f5de0d744090b30cab33f",
+    "questionText" : "check box2",
+    "questionIdentifier" : "check box2",
+    "active" : true,
+    "modifiedBy" : "userId",
+    "modifiedDate" : ISODate("2018-03-07T06:29:12.079Z")
+}
